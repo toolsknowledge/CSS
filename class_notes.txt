@@ -1,0 +1,41 @@
+Media Queries
+-------------
+    Media Queries, used to implement the responsive web design.
+
+    Execution of webpage in multiple devices called as media queries.
+
+
+sass
+----
+    - sass supports variables & functions.
+
+    - because of above features we can reuse the styles.
+
+    - it's recomended to use sass insted of CSS.
+
+    - sass also called as preprocessor of CSS.
+
+    - in general, browsers can't understand sass.
+
+    - so, we must convert sass to css.
+
+    - to convert sass to css we will use sass compiler.
+
+    - we need to add "Live Sass Compiler" extension in Visual Studio Code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
