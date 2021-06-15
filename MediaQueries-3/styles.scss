@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    body{
+        font-size: 5vw;
+        font-family: sans-serif;
+    }
+}
+
+.container{
+    height: 100vh;
+}
+
+[class^="row-"]{
+    display: flex;
+    
+}
+
+[class^="box-"]{
+    width: (100%)/3;
+    height: (100vh)/3;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width:650px){
+    [class^="row-"]{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    [class^="box-"]{
+        width: 100%;
+        
+    }   
+}
+
+
+
