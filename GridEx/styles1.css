@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+* body {
+  font-size: 20px;
+  font-family: Comic Sans MS;
+}
+
+.container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: 40px 1fr 40px;
+      grid-template-rows: 40px 1fr 40px;
+  grid-gap: 10px;
+}
+
+.header {
+  background-color: lightcoral;
+  color: white;
+  text-align: center;
+  grid-column: 1/-1;
+}
+
+.menu {
+  background-color: pink;
+  color: white;
+  text-align: center;
+}
+
+.content {
+  background-color: yellowgreen;
+  color: white;
+  text-align: center;
+  grid-column: 2/-1;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.footer {
+  background-color: yellow;
+  color: red;
+  text-align: center;
+  grid-column: 1/-1;
+}
+/*# sourceMappingURL=styles1.css.map */
